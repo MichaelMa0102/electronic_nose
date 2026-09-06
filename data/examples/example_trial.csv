@@ -1,0 +1,6 @@
+elapsed_ms,temp_c,humidity_pct,pressure_hpa,gas_ohm,label,trial_id,phase
+0,25.300,51.200,1008.400,121300,coffee,coffee_001,baseline
+1000,25.300,51.200,1008.400,120800,coffee,coffee_001,baseline
+2000,25.300,51.300,1008.400,118200,coffee,coffee_001,exposure
+3000,25.400,51.400,1008.300,109500,coffee,coffee_001,exposure
+4000,25.400,51.400,1008.300,101700,coffee,coffee_001,exposure

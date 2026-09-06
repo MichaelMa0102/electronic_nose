@@ -1,0 +1,8 @@
+item,part,quantity,status,notes
+Microcontroller,ESP32-S3-N16R8 development board,1,owned,Current main controller
+Gas sensor,BME688 breakout board,1,owned,I2C address observed at 0x77
+Breadboard,Mini solderless breadboard,1,owned,Prototype interconnect
+Jumper wires,Dupont jumper wires,4+,owned,Prototype interconnect
+USB cable,USB data cable,1,owned,Programming and power
+Multimeter,Digital multimeter,1,owned,Continuity and voltage checks
+Soldering iron,Soldering iron,1,owned,Header soldering
