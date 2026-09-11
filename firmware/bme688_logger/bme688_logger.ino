@@ -7,16 +7,20 @@
 #define BME_ADDR 0x77
 
 Adafruit_BME680 bme;
-unsigned long startMs;
+
+unsigned long startMs = 0;
 
 void setup() {
   Serial.begin(115200);
   delay(2000);
+
   Wire.begin(SDA_PIN, SCL_PIN);
 
   if (!bme.begin(BME_ADDR, &Wire)) {
     Serial.println("# ERROR: BME688 not found");
-    while (1) delay(1000);
+    while (1) {
+      delay(1000);
+    }
   }
 
   bme.setTemperatureOversampling(BME680_OS_8X);
@@ -26,6 +30,7 @@ void setup() {
   bme.setGasHeater(320, 150);
 
   startMs = millis();
+
   Serial.println("elapsed_ms,temp_c,humidity_pct,pressure_hpa,gas_ohm");
 }
 
