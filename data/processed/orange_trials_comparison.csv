@@ -1,0 +1,3 @@
+trial_id,baseline_gas_mean_ohm,baseline_gas_cv_pct,min_gas_ohm,gas_drop_pct,baseline_humidity_pct,peak_humidity_pct,humidity_increase_pp,late_recovery_gas_ohm,timing_quality
+orange_001,404887.1923076923,0.48364397012787447,197036,51.33558093626648,58.97046153846153,61.053,2.082538461538469,387776.1176470588,manual interval recorded (70-140 s)
+orange_002,411526.5945945946,0.26955662793322693,160200,61.07177467890814,50.999297297297296,55.897,4.897702702702702,386481.04545454547,placement ~120 s uncertain; sensor transition starts ~111.258 s; removal ~230 s
