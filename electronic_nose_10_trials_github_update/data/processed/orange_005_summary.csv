@@ -1,0 +1,16 @@
+metric,value,unit
+samples,224,
+stable_baseline_window_start_ms,50000.0,ms
+stable_baseline_window_end_ms,90000.0,ms
+baseline_gas_mean,327238.275862069,ohm
+baseline_gas_std,1492.7174858662431,ohm
+baseline_gas_cv,0.45615613941671784,%
+exposure_min_gas,85647,ohm
+exposure_min_time,155066,ms
+gas_drop_from_baseline,73.82732818330206,%
+baseline_humidity_mean,52.82103448275862,%RH
+exposure_peak_humidity,54.892,%RH
+humidity_peak_time,187922,ms
+humidity_increase,2.0709655172413832,percentage_points
+final_60s_gas_mean,295186.13636363635,ohm
+recovery_fraction_toward_baseline,86.73290689655032,%
